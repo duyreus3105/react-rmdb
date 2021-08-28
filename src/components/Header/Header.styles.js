@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
     background: var(--darkGrey);
-    padding: - 20px
+    padding: 0 20px;
 `;
 
 export const Content = styled.div`
@@ -16,6 +16,7 @@ export const Content = styled.div`
 
 export const LogoImg = styled.img`
     width : 200px;
+    
     @media screen and (max-width: 500px){
         width: 150px;
     }

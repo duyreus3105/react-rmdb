@@ -38,4 +38,4 @@ export const useHomeFetch = () => {
     }, [] );
 
     return {state, loading, error};
-}
+};

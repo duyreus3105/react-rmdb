@@ -19,9 +19,10 @@ export const GlobalStyle = createGlobalStyle`
     body{
         margin:0;
         padding: 0;
-    }
+        box-sizing: border-box;
+    
     h1{
-        fond-size:2rem;
+        font-size:2rem;
         font-weight:600;
         color: var(--white);
     }
@@ -33,7 +34,4 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1rem;
         color:var(--white);
     }
-
-
-
-`
+}`;
