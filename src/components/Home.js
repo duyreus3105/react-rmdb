@@ -15,7 +15,7 @@ const Home = () => {
     console.log(state);
     
     return (
-        <>
+        <div>
             {state.results[0] ? (
                 <HeroImage 
                     image = {`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[0].backdrop_path}`}
@@ -23,7 +23,7 @@ const Home = () => {
                     text={state.results[0].overview}
                 />
             ) : null}
-        </> 
+        </div> 
     );
 };
 
